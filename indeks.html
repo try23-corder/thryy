@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Nama Siswa Lulus</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Daftar Nama Siswa Lulus</h1>
+        <form id="studentForm">
+            <input type="text" id="name" placeholder="Nama" required>
+            <input type="text" id="nisn" placeholder="NISN" required>
+            <input type="text" id="address" placeholder="Alamat" required>
+            <input type="text" id="phone" placeholder="No HP" required>
+            <button type="submit">Tambah Siswa</button>
+        </form>
+        <table id="studentTable">
+            <thead>
+                <tr>
+                    <th>Nama</th>
+                    <th>NISN</th>
+                    <th>Alamat</th>
+                    <th>No HP</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Data siswa akan ditambahkan di sini -->
+            </tbody>
+        </table>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
